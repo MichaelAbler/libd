@@ -5,6 +5,6 @@
 std::string depd(void)
 {
     std::string result = "... called D ";
-    result += depf();  // depf() should return std::string in modern C++
+    result += depf(3);  // depf() should return std::string in modern C++
     return result;
 }
